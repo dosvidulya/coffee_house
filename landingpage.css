@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald';
+    height: 100%;
+    background-color: #FFF;
+}
+.header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 110px;
+    background-color: white;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+
+}
+.menu__logo{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 187%;
+    font-weight: 500;
+    line-height: normal;
+}
+.menu__ul{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 130px;
+}
+.menu__link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.home{
+    width: 100%;
+    height: 632px;
+    background: url(https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home_words{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.home_line{
+    width: 80px;
+    height: 10px;
+    background: #817070;
+}
+.story{
+    width: 100%;
+    height: 632px;
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.story_content{
+    display: flex;
+    align-items: center;
+}
+.story_image{
+    height: 400px;
+    width: auto;
+    margin: 0px 0 60px 300px;
+    padding-right: 40px;
+}
+.story_text{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+    height: auto;
+}
+.card_1_image{
+    width: 325px;
+    margin: 24px 0;
+}
+.card_2_image{
+    width: 325px;
+    margin: 24px 0;
+}
+.card_3_image{
+    width: 325px;
+    margin: 24px 0;
+}
+.blog{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 711px;
+}
+.blog_content{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card_1{
+    width: 325px;
+    background-color: #FFF;
+    padding: 20px 20px 46px 20px;
+}
+.card_2{
+    width: 325px;
+    background-color: #FFF;
+    padding: 20px 20px 46px 20px;
+    gap: 24px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.card_3{
+    width: 325px;
+    background-color: #FFF;
+    padding: 20px 20px 46px 20px;
+    gap: 24px;
+}
+.card_1_text,
+.card_2_text,
+.card_3_text{
+    width: 325px;
+    color: #000;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.card_1_title,
+.card_2_title,
+.card_3_title{
+    color: #000;
+    text-align: left;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_1:hover,
+.card_2:hover,
+.card_3:hover{
+    box-shadow: 0 0 60px 0 #817070;
+}
+.subscribe{
+    height: 337px;
+    background-color:#817070;
+}
+.subscribe_title{
+    color:#FFF;
+}
+.subscribe_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enter_email{
+    height: 55px;
+    width: 300px;
+    background-color: #817070;
+    border: 3px solid #FFF;
+    color:#FFF;
+    margin-bottom: 28px;
+}
+.enter_email::placeholder{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.enter_email:hover{
+    box-shadow: 0 0 60px 0 #000;
+}
+.submit_btn{
+    color: #817070;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 129px;
+    height: 55px;
+    border: none;
+}
+.submit_btn:hover{
+    background-color: #817070;
+    color:#FFF;
+    border: 3px solid #FFF;
+}
+footer{
+    display: flex;
+    height: 72px;
+    padding: 28px 0px 14px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.copyright2023{
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
